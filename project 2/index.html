@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage designing</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Montserrat:wght@100&family=Open+Sans:ital,wght@1,300&family=Poppins:wght@200;300&display=swap');
+      </style>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow: hidden;
+        
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            background-image: url(./assets/image.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .navigation {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        ul{
+            display: flex;
+        }
+        li{
+            list-style-type: none;
+            padding-left: 13px;
+        }
+        .search-section{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .search-section img{
+            margin-right: 15px;
+        }
+        .search-section button {
+            padding: 3px 10px;
+            background-color: rgb(243, 46, 164);
+            border-radius: 6px;
+            color: white;
+            cursor: pointer;
+        }
+        .main-section{
+            display: flex;
+            width: 100%;
+        }
+        .left-container {
+            display: inline-block; 
+            margin-left: 125px;
+            
+        }
+        #main-content{
+            margin-top: 10rem;
+        }
+        .left-container .title{
+            font-weight: 900;
+            font-size: 55px;
+            margin-bottom: 20px;
+        }
+        .left-container .para-content{
+            margin-bottom: 18px;
+            color: gray;
+        }
+        .button-section .left-button {
+            background-color: rgb(243, 46, 164);
+            color: white;
+            padding: 6px 12px;
+            border: 1px solid rgb(243, 46, 164);
+            border-radius: 5px;
+            outline: none;
+            margin-right: 10px;
+            cursor: pointer;
+            
+
+        }
+        .button-section .right-button{
+            background-color: white;
+            color: pink;
+            border: 1px solid pink;
+            padding: 6px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .icon-items{
+            display: inline-block;
+            padding-top: 15rem;
+            
+    
+            
+            
+        }
+        .icon-items .logo-items {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+
+        }
+        .right-container {
+            width: 60%;
+            height: auto;
+            position: relative;
+
+        }
+        .hero-section{
+            position: absolute;
+            margin-top: 2.8rem;
+        }
+        .right-logo-content{
+            display: flex;
+            padding: 3px 6px;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            gap: 4px;
+            position: absolute;
+            top: 3px;
+            left: 11.5rem;
+            box-shadow:0px 1px 7px black;
+            border-radius: 15px;
+        }
+        .right-logo2-content{
+            display: flex;
+            padding: 3px 6px;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            gap: 4px;
+            position: absolute;
+            box-shadow:0px 1px 7px black;
+            border-radius: 15px;
+            top: 18rem;
+            right: 12rem;
+
+        }
+
+
+
+
+
+
+        
+    </style>
+</head>
+<body>
+    <nav class="navigation">
+        <div class="logo">
+            <img src="./assets/logo.png" alt="logo">
+        </div>
+        <ul>
+            <li>RETAILS</li>
+            <li>SME</li>
+            <li>CORPORATE</li>
+            <li>ABOUT US</li>
+            <li>COVID-19</li>
+            <li>CAMPGAINS</li>
+        </ul>
+        <div class="search-section">
+            <img src="./assets/search-icon.png" alt="">
+            <button>Search</button>
+        </div>
+    </nav>
+    <div class="main-section">
+        <div class="left-container">
+            <div id="main-content">
+                <p class="title">Chase Your <br> 
+                    Dream With Us</p>
+                <p class="para-content">
+                    The harder you work for something the <br> greater you will feel when you achieve it
+                </p>    
+                <div class="button-section">
+                    <button class="left-button">APPLY ONLINE</button>
+                    <button class="right-button">LOAN CALCULATOR</button>
+                </div>
+            </div>
+            <div class="icon-items">
+                <div class="logo-items">
+                    <img src="./assets/phone.png" alt="">
+                    <p>ABC659 |</p>
+                    <img src="./assets/facebook.png" alt="">
+                    <img src="./assets/youtube.png" alt="">
+                    <img src="./assets/linkedin.png" alt="">
+                    <img src="./assets/instagram.png" alt="">
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="right-container">
+            <div class="hero-section">
+                <img src="./assets/hero-image.png" alt="">
+            </div>
+            <div class="right-logo-content">
+                <img src="./assets/car.png" alt="">
+                <p>Car Loan</p>
+            </div>
+            </div>
+            <div class="right-logo2-content">
+                <img src="./assets/House.png" alt="">
+                <p>Car Loan</p>
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
